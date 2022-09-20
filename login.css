@@ -2,10 +2,7 @@
     margin: 0;
     padding: 0;
 }
-body{
-    width: 100%;
-    height: 100%;
-}
+
 .darkBox{
     background-color: #2D3f51;
     width: 60%;
