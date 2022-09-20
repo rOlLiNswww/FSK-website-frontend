@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+body{
+    
+    background-image: url("src/images.jpeg");
+    background-size: 100% 100%;
+}
+
 .darkBox{
     background-color: #2D3f51;
-    width: 60%;
-    height: 760px;
+    width: 61.8%;
+    height: 1000px;
     margin-left: 40%;
 }
 
@@ -28,7 +34,7 @@
 
 input[type="text"], input[type="password"]{
     border-radius: 20px;
-    border: 2px solid #FF6868;
+    border: 2px solid grey;
     background: none;
     display: block;
     margin: 20px auto;
