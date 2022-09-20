@@ -4,7 +4,6 @@
 }
 
 body{
-    
     background-image: url("src/images.jpeg");
     background-size: 100% 100%;
 }
@@ -13,7 +12,7 @@ body{
     background-color: #2D3f51;
     width: 61.8%;
     height: 1000px;
-    margin-left: 40%;
+    margin-left: 38.2%;
 }
 
 .logo{
@@ -48,7 +47,7 @@ input[type="text"], input[type="password"]{
 /* 设置文本框获得焦点时的样式 */
 input[type="text"]:focus, input[type="password"]:focus{
     width: 280px;
-    border-color: #FF6868;
+    border-color: grey;
     background-color: white;
 
 }
