@@ -10,33 +10,34 @@ body{
 
 .darkBox{
     background-color: #2D3f51;
-    width: 61.8%;
+    width: 30%;
     height: 1000px;
-    margin-left: 38.2%;
+
 }
 
 .logo{
     width: 27%;
     height: 44%;
-    margin-left: 6%;
+    margin-right: 22%;
     margin-top: 13%;
     border-radius: 10%;
-    float: left;
+    float: right;
     display: flex;
+
 }
 .message{
-    padding-top: 20%;
+    padding-top: 35%;
     text-align: center;
     font-size:30px;
     color: #FF6868;
 }
 
 input[type="text"], input[type="password"]{
-    border-radius: 20px;
+    border-radius: 15px;
     border: 2px solid grey;
-    background: none;
+    background: white;
     display: block;
-    margin: 20px auto;
+    margin: 10px auto;
     text-align: center;
     padding: 14px 10px;
     width: 250px;
@@ -53,19 +54,38 @@ input[type="text"]:focus, input[type="password"]:focus{
 }
 
 .button{
-    width: 75px;
-    border-radius: 20px;
+
+    width: 150px;
+    border-radius: 5px;
     border: 2px solid #2ecc71;
-    background: none;
     display: block;
-    margin: 15px auto;
+    margin: 10px 85px;
     text-align: center;
-    padding: 12px 40px;
-    outline: none;
+    padding: 8px 40px;
     color: white;     /* 设置输入框中竖线的颜色 */
     transition: 0.25s;
     cursor: pointer;    /* 设置光标的样式 */
 }
 .button:hover{
     background: #2ecc71;
+}
+
+.forget{
+    text-decoration: none;
+    color: #2ecc71;
+    margin-left: 160px;
+    font-size: 10px;
+}
+.google{
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin-left: 150px;
+    background-color: white;
+    display: block;
+}
+.googleImg{
+    width: 40px;
+    height: 40px;
+    padding-left: 30px;
 }
