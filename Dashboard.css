@@ -7,7 +7,6 @@ body{
     background-size: 100% 100%;
 }
 
-
 .sideBar{
     background-color: #1b2a40;
     width: 8%;
@@ -20,5 +19,28 @@ body{
     margin-left: 6%;
     margin-top: 1%;
     display: inline-block;
+}
+
+.sideBarButton{
+    width: 60px;
+    height: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.home{
+    background-image: url("src/home.png");
+}
+.add{
+    background-image: url("src/plus.png");
+}
+.person{
+    background-image: url("src/person.png");
+}
+.light{
+    background-image: url("src/light.png");
+}
+.exit{
+    background-image: url("src/exit.png");
 }
 

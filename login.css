@@ -59,7 +59,7 @@ input[type="text"]:focus, input[type="password"]:focus{
     border-radius: 5px;
     border: 2px solid #2ecc71;
     display: block;
-    margin: 10px 85px;
+    margin: 10px auto;
     text-align: center;
     padding: 8px 40px;
     color: white;     /* 设置输入框中竖线的颜色 */
@@ -73,14 +73,14 @@ input[type="text"]:focus, input[type="password"]:focus{
 .forget{
     text-decoration: none;
     color: #2ecc71;
-    margin-left: 160px;
+    text-align: center;
     font-size: 10px;
 }
 .google{
     border-radius: 10px;
     width: 100px;
     height: 40px;
-    margin-left: 150px;
+    margin: 0 auto;
     background-color: white;
     display: block;
 }

@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/person.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/plus.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +78,7 @@
       <workItem from="1663575837291" duration="164000" />
       <workItem from="1663576046953" duration="433000" />
       <workItem from="1663653783009" duration="11339000" />
-      <workItem from="1663754896293" duration="3988000" />
+      <workItem from="1663754896293" duration="7630000" />
     </task>
     <servers />
   </component>
