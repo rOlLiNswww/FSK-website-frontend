@@ -45,10 +45,11 @@ body{
 }
 
 .friend{
+    background-image: url("src/friendBar.jpeg");
+    background-size: 100% 100%;
     width: 85%;
     height: 150px;
-    background-color: #596672;
-    margin: 40px 12%;
+    margin: 30px 12%;
     border-radius: 10px;
 }
 .profilePic{
@@ -60,25 +61,22 @@ body{
     float: left;
 }
 .intimacy{
-    padding-top: 6%;
-    width: 250px;
-    height: 15px;
+    margin-left: -50px;
+    margin-top: 6%;
+    width: 160px;
+    height: 45px;
     accent-color: #2ecc71;
-
+    float: left;
 }
+
 .name{
+    width: 40px;
+    height: 20px;
     font-size: 30px;
     padding-top: 2%;
+    float: left;
 }
 
-.container {
-    height: 70px;
-    width: 800px;
-    margin: 100px auto 0 auto;
-}
-.parent {
-    position: relative;
-}
 .container {
     height: 70px;
     width: 800px;
@@ -105,10 +103,30 @@ body{
     width: 40px;
     position: absolute;
     background: url("src/search.png");
-    top: 6px;
+    top: 5px;
     left: 270px;
     border: none;
     outline: none;
     cursor: pointer;
     background-size: 100% 100%;
 }
+
+.intimacy_1{
+    margin-left: 45%;
+    width: 200px;
+    height: 48px;
+    accent-color: #2ecc71;
+    display: block;
+}
+
+.first{
+    padding-top: 10px;
+}
+
+.text{
+    font-size: 20px;
+    float: left;
+    margin-left: 12%;
+    line-height: 48px;
+}
+
