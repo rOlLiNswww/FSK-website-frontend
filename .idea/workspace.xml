@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/survey.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/survey.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/proPic1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images.jpeg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -49,17 +51,21 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Dashboard.html">
+  <component name="RunManager" selected="JavaScript Debug.survey.html">
     <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Dashboard.html" />
+        <item itemvalue="JavaScript Debug.survey.html" />
         <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.Dashboard.html" />
       </list>
     </recent_temporary>
   </component>
@@ -77,7 +83,7 @@
       <workItem from="1663653783009" duration="11339000" />
       <workItem from="1663754896293" duration="11863000" />
       <workItem from="1663995994699" duration="598000" />
-      <workItem from="1664168280350" duration="13004000" />
+      <workItem from="1664168280350" duration="19125000" />
     </task>
     <servers />
   </component>

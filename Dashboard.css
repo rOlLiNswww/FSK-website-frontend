@@ -48,7 +48,7 @@ body{
     background-image: url("src/friendBar.jpeg");
     background-size: 100% 100%;
     width: 85%;
-    height: 150px;
+    height: 135px;
     margin: 30px 12%;
     border-radius: 10px;
 }
@@ -63,7 +63,7 @@ body{
 .intimacy{
     margin-left: -50px;
     margin-top: 6%;
-    width: 160px;
+    width: 185px;
     height: 45px;
     accent-color: #2ecc71;
     float: left;
@@ -110,7 +110,6 @@ body{
     cursor: pointer;
     background-size: 100% 100%;
 }
-
 .intimacy_1{
     margin-left: 45%;
     width: 200px;
@@ -122,11 +121,10 @@ body{
 .first{
     padding-top: 10px;
 }
-
 .text{
     font-size: 20px;
     float: left;
-    margin-left: 12%;
+    margin-left: 10%;
     line-height: 48px;
 }
 
