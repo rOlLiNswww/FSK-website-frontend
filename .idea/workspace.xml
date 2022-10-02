@@ -2,14 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/survey.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/survey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Profile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/editPicBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hidecontent.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/FSK.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/FSK.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey.css" beforeDir="false" afterPath="$PROJECT_DIR$/survey.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,13 +20,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.highcharts.com_highcharts.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,13 +53,20 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.survey.html">
+  <component name="RunManager" selected="JavaScript Debug.Profile.html">
     <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
+    <configuration name="Profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Profile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="binzhuangtu.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/src/binzhuangtu.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="binzhuangtu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/binzhuangtu.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
@@ -63,8 +74,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Profile.html" />
+        <item itemvalue="JavaScript Debug.binzhuangtu.html" />
+        <item itemvalue="JavaScript Debug.binzhuangtu.html (1)" />
         <item itemvalue="JavaScript Debug.survey.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
         <item itemvalue="JavaScript Debug.Dashboard.html" />
       </list>
     </recent_temporary>
@@ -83,7 +96,10 @@
       <workItem from="1663653783009" duration="11339000" />
       <workItem from="1663754896293" duration="11863000" />
       <workItem from="1663995994699" duration="598000" />
-      <workItem from="1664168280350" duration="19125000" />
+      <workItem from="1664168280350" duration="19770000" />
+      <workItem from="1664265316275" duration="23305000" />
+      <workItem from="1664616940677" duration="278000" />
+      <workItem from="1664617221216" duration="3796000" />
     </task>
     <servers />
   </component>

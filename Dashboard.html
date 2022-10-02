@@ -20,7 +20,8 @@
         <input type="button" name="" id="" class="btn">
     </form>
 </div>
-<div class="friend">
+<div class="friend dropbtn" onclick=myFunction()>
+
     <img class="profilePic" src="src/proPic3.jpeg" alt="">
     <p class="name">Alice</p>
     <progress class="intimacy" max="100" value="95">70%</progress>
@@ -28,6 +29,9 @@
     <progress class="intimacy_1" id="1" max="100" value="90"></progress>
     <progress class="intimacy_1" id="2" max="100" value="80"></progress>
     <progress class="intimacy_1" id="3" max="100" value="60"></progress>
+    <div id="myDropdown" class="dropdown-content">
+            <img  class="hide" src="src/hidecontent.png">
+    </div>
 </div>
 <div class="friend">
     <img class="profilePic" src="src/proPic2.jpeg" alt="">
@@ -37,7 +41,6 @@
     <progress class="intimacy_1 " max="100" value="40"></progress>
     <progress class="intimacy_1 " max="100" value="75"></progress>
     <progress class="intimacy_1 " max="100" value="25"></progress>
-
 </div>
 <div class="friend">
     <img class="profilePic" src="src/proPic2.webp" alt="">
@@ -49,5 +52,10 @@
     <progress class="intimacy_1 " max="100" value="35"></progress>
 
 </div>
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
 </body>
 </html>

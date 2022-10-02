@@ -113,7 +113,7 @@ body{
 .intimacy_1{
     margin-left: 45%;
     width: 200px;
-    height: 48px;
+    height: 45px;
     accent-color: #2ecc71;
     display: block;
 }
@@ -128,3 +128,31 @@ body{
     line-height: 48px;
 }
 
+
+.dropbtn {
+    background-color: #4CAF50;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    margin-top: -1.5px;
+    display: none;
+    position: absolute;
+    background-color: #596672;
+    border: 1px #4CAF50 solid ;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.show {display:block;}
