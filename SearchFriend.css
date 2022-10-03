@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #2D3f51;
+}
+
+.title{
+    border-bottom: 2px white solid;
+    font-size: 50px;
+    color: #FF6868;
+    margin-left: 8%;
+}
+
+.sideBar{
+    background-color: #1b2a40;
+    width: 8%;
+    height: 750px;
+    float: left;
+    position: fixed;
+}
+
+.sideBarButton{
+    width: 60px;
+    height: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+.home{
+    background-image: url("src/home.png");
+}
+.add{
+    background-image: url("src/plus.png");
+}
+.person{
+    background-image: url("src/person.png");
+}
+.light{
+    background-image: url("src/light.png");
+}
+.exit{
+    background-image: url("src/exit.png");
+}
+
+.container {
+    height: 70px;
+    width: 1000px;
+    margin: 100px auto 0 auto;
+}
+
+.parent {
+    margin-top: -3%;
+    margin-left: 19%;
+    position: relative;
+}
+.search {
+    background-color: #f3f3f3;
+    width: 600px;
+    height: 50px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    position: absolute;
+}
+.btn {
+    height: 35px;
+    width: 40px;
+    position: absolute;
+    background: url("src/search.png");
+    top: 10px;
+    left: 570px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+.recFriend{
+    width: 700px;
+    height: 100px;
+    border-radius: 10px;
+    margin: 2% 24%;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+}
+
+.addBtn{
+    font-size: 20px;
+    color: #2ecc71;
+    float: right;
+    margin-right: 3%;
+    margin-top: 5.5%;
+    cursor: pointer;
+}
+
+.ignoreBtn{
+    font-size: 20px;
+    color: #FF6868;
+    float: right;
+    margin-right: 5%;
+    margin-top: 5.5%;
+    cursor: pointer;
+}
+
+.recPic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    margin: 2% 3%;
+    float: left;
+}
+
+.recMes{
+    font-size: 20px;
+    margin-left: 24.5%;
+    color: white;
+}
+
+.Name{
+    width: 200px;
+    font-size: 25px;
+    color: white;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    border-bottom: 1px white solid;
+}
+
+.friendOf{
+    font-size: 10px;
+    color: grey;
+    float: left;
+    margin-left: -28%;
+    margin-top: 6%;
+}
