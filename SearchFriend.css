@@ -20,7 +20,11 @@ body{
     float: left;
     position: fixed;
 }
-
+.sideBarButton:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transform: translate(0,-5px);
+    transition-delay: 0s !important;
+}
 .sideBarButton{
     width: 60px;
     height: 50px;
@@ -78,6 +82,14 @@ body{
     background-size: 100% 100%;
 }
 
+.refresh{
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-right: 27%;
+    cursor: pointer;
+}
+
 .recFriend{
     width: 700px;
     height: 100px;
@@ -104,6 +116,7 @@ body{
     margin-top: 5.5%;
     cursor: pointer;
 }
+
 
 .recPic{
     width: 70px;
