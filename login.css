@@ -55,7 +55,6 @@ input[type="text"]:focus, input[type="password"]:focus{
 }
 
 .button{
-
     width: 150px;
     border-radius: 5px;
     border: 2px solid #2ecc71;
@@ -63,9 +62,9 @@ input[type="text"]:focus, input[type="password"]:focus{
     margin: 10px auto;
     text-align: center;
     padding: 8px 40px;
-    color: white;     /* 设置输入框中竖线的颜色 */
+    color: white;
     transition: 0.25s;
-    cursor: pointer;    /* 设置光标的样式 */
+    cursor: pointer;    
 }
 .button:hover{
     background: #2ecc71;

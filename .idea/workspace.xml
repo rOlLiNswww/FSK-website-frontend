@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ChatPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ChatPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchFriend.css" beforeDir="false" afterPath="$PROJECT_DIR$/SearchFriend.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SearchFriend.html" beforeDir="false" afterPath="$PROJECT_DIR$/SearchFriend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +42,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/wudongchen/FSK&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -51,6 +53,9 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.Dashboard.html">
+    <configuration name="ChatPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/ChatPage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -60,19 +65,16 @@
     <configuration name="SearchFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SearchFriend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="binzhuangtu.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/binzhuangtu.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
     <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.Dashboard.html" />
+        <item itemvalue="JavaScript Debug.ChatPage.html" />
         <item itemvalue="JavaScript Debug.Profile.html" />
         <item itemvalue="JavaScript Debug.survey.html" />
         <item itemvalue="JavaScript Debug.SearchFriend.html" />
-        <item itemvalue="JavaScript Debug.binzhuangtu.html" />
       </list>
     </recent_temporary>
   </component>
@@ -93,7 +95,9 @@
       <workItem from="1664168280350" duration="19770000" />
       <workItem from="1664265316275" duration="23305000" />
       <workItem from="1664616940677" duration="278000" />
-      <workItem from="1664617221216" duration="10748000" />
+      <workItem from="1664617221216" duration="11481000" />
+      <workItem from="1664954915346" duration="11902000" />
+      <workItem from="1665116267487" duration="6137000" />
     </task>
     <servers />
   </component>
