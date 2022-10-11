@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ChatPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ChatPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadingPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoadingPage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignUp.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,11 +53,8 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Dashboard.html">
-    <configuration name="ChatPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/ChatPage.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.login.html">
+    <configuration name="LoadingPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/LoadingPage.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Profile.html" useBuiltInWebServerPort="true">
@@ -65,16 +63,19 @@
     <configuration name="SearchFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SearchFriend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
+    <configuration name="SignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SignUp.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.Dashboard.html" />
-        <item itemvalue="JavaScript Debug.ChatPage.html" />
-        <item itemvalue="JavaScript Debug.Profile.html" />
-        <item itemvalue="JavaScript Debug.survey.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.LoadingPage.html" />
+        <item itemvalue="JavaScript Debug.SignUp.html" />
         <item itemvalue="JavaScript Debug.SearchFriend.html" />
+        <item itemvalue="JavaScript Debug.Profile.html" />
       </list>
     </recent_temporary>
   </component>
@@ -97,7 +98,9 @@
       <workItem from="1664616940677" duration="278000" />
       <workItem from="1664617221216" duration="11481000" />
       <workItem from="1664954915346" duration="11902000" />
-      <workItem from="1665116267487" duration="6137000" />
+      <workItem from="1665116267487" duration="7998000" />
+      <workItem from="1665198757986" duration="269000" />
+      <workItem from="1665457889831" duration="6628000" />
     </task>
     <servers />
   </component>

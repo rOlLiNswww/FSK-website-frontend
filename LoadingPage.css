@@ -1,0 +1,46 @@
+
+body{
+    background-image: url("src/loadingBGC.jpeg");
+    background-size: 100% 160%;
+}
+
+.loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #2ecc71; /* Blue */
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    animation: spin 1.5s linear infinite;
+    margin-left: 47%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+@keyframes mymove{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -20px);}
+    100% {transform: translate(0px, 0px);}
+
+}
+
+.logo{
+    width: 27%;
+    height: 44%;
+    margin: auto auto;
+    border-radius: 10%;
+    display: flex;
+    animation:mymove 1.5s infinite;
+    -webkit-animation:mymove 1.5s infinite;
+
+}
+p{
+    margin-top: -2%;
+    font-size: 35px;
+    color: #2D3f51;
+    margin-left: 27%;
+    font-weight: bold;
+}
