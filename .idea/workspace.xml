@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LoadingPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LoadingPage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignUp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editProPage.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/editProPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,17 +54,17 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.login.html">
-    <configuration name="LoadingPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/LoadingPage.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.editProPage.html">
     <configuration name="Profile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Profile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="SearchFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SearchFriend.html" useBuiltInWebServerPort="true">
+    <configuration name="SignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SignUp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="SignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SignUp.html" useBuiltInWebServerPort="true">
+    <configuration name="editProPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/editProPage.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="edit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/edit.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
@@ -71,11 +72,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.LoadingPage.html" />
+        <item itemvalue="JavaScript Debug.editProPage.html" />
+        <item itemvalue="JavaScript Debug.edit.html" />
         <item itemvalue="JavaScript Debug.SignUp.html" />
-        <item itemvalue="JavaScript Debug.SearchFriend.html" />
         <item itemvalue="JavaScript Debug.Profile.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +101,7 @@
       <workItem from="1664954915346" duration="11902000" />
       <workItem from="1665116267487" duration="7998000" />
       <workItem from="1665198757986" duration="269000" />
-      <workItem from="1665457889831" duration="6628000" />
+      <workItem from="1665457889831" duration="18556000" />
     </task>
     <servers />
   </component>

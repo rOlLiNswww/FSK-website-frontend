@@ -2,28 +2,74 @@
     margin: 0;
     padding: 0;
 }
-
 body{
-    background-image: url("src/background3.webp");
+    background-color: #2D3f51;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+    border-bottom: 2px white solid;
+    font-size: 50px;
+    color: #FF6868;
+    margin-left: 8%;
+    float: left;
+    width: 100%;
+}
+
+.sideBar{
+    background-color: #1b2a40;
+    width: 8%;
+    height: 750px;
+    float: left;
+    position: fixed;
+
+
+}
+
+.sideBarButton:hover {
+    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
+    transform: translate(0,-5px);
+    transition-delay: 0s !important;
+}
+
+.sideBarButton{
+    width: 60px;
+    height: 50px;
+    margin: 20px 20px;
+    cursor: pointer;
     background-size: 100% 100%;
 }
-
-.darkBox{
-    background-color: #2D3f51;
-    width: 40%;
-    height: 1000px;
+.home{
+    background-image: url("src/home.png");
+}
+.add{
+    background-image: url("src/plus.png");
+}
+.person{
+    background-image: url("src/person.png");
+}
+.light{
+    background-image: url("src/light.png");
+}
+.exit{
+    background-image: url("src/exit.png");
 }
 
-.logo{
-    width: 27%;
-    height: 44%;
-    margin-right: 15%;
-    margin-top: 12%;
-    border-radius: 10%;
-    float: right;
-    display: flex;
-    animation:mymove 1.5s infinite;
-    -webkit-animation:mymove 1.5s infinite;
+.Img{
+    width: 250px;
+    height: 250px;
+    background-image: url("src/proPic3.jpeg");
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin-top: -38%;
+    margin-left: 5%;
+}
+
+.imageUpload{
+    width: 70px;
+    height: 30px;
+    margin-left: 13%;
+    margin-top: 2%;
 }
 
 @keyframes mymove{
@@ -32,8 +78,12 @@ body{
     100% {transform: translate(0px, 0px);}
 
 }
-
-
+@-webkit-keyframes mymove
+{
+    0% {transform: translate(0px, 0px);}
+    50% {transform: translate(0px, -10px);}
+    100% {transform: translate(0px, 0px);}
+}
 
 .signupFrm {
     display: flex;
@@ -118,16 +168,3 @@ body{
     font-weight: 600;
     color: #2ecc71;
 }
-
-.input:not(:placeholder-shown)+ .label {
-    top: -7px;
-    left: 3px;
-    z-index: 10;
-    font-size: 14px;
-    font-weight: 600;
-}
-
-.input:focus {
-    border: 2px solid #2ecc71;
-}
-
