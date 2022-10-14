@@ -3,8 +3,17 @@
     padding: 0;
 }
 body{
-    background-image: url("src/bgc.png");
+    background-image: url("src/bgc4.gif");
     background-size: 100% 100%;
+}
+
+
+.title{
+    border-bottom: 2px white solid;
+    font-size: 50px;
+    color: #611f86;
+    margin-left: 8%;
+
 }
 
 .sideBar{
@@ -12,14 +21,11 @@ body{
     width: 8%;
     height: 690px;
     float: left;
+    margin-top: -5.3%;
+    position: fixed;
 }
-.title{
-    font-size: 50px;
-    color: #FF6868;
-    margin-left: 6%;
-    margin-top: 1%;
-    display: inline-block;
-}
+
+
 
 .sideBarButton{
     width: 60px;
@@ -59,6 +65,25 @@ body{
     margin: 30px 12%;
     border-radius: 10px;
 }
+
+.addFriend{
+    background-color: rgba(89,102,114,0.5);
+    width: 85%;
+    height: 135px;
+    margin: 30px 12%;
+    border-radius: 10px;
+}
+
+.addFri{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 45%;
+    margin-top: 2%;
+
+}
+
+
 .profilePic{
     width: 100px;
     height: 100px;

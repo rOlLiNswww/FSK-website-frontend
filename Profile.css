@@ -3,33 +3,28 @@
     padding: 0;
 }
 body{
-    background-color: #2D3f51;
+
+    background-image: url("src/bgc4.gif");
+    background-size: 100% 130%;
 }
 
 .profile{
     border-bottom: 2px white solid;
     font-size: 50px;
-    color: #FF6868;
+    color: #611f86;
     margin-left: 8%;
 }
 
 .sideBar{
-    background-color: #1b2a40;
+    background-color: rgba(27, 42, 64);
     width: 8%;
     height: 750px;
     float: left;
     position: fixed;
 }
-
-.sideBarButton:hover {
-    box-shadow: 0 16px 32px 0 rgba(48, 55, 66, 0.15);
-    transform: translate(0,-5px);
-    transition-delay: 0s !important;
-}
-
 .title{
     font-size: 50px;
-    color: #FF6868;
+    color: #e56b6f;
     margin-left: 10%;
     margin-top: 1%;
 }
@@ -67,12 +62,14 @@ body{
     background-image: url("src/proPic3.jpeg");
 }
 
-.editPic{
-    margin-left: 70%;
-    margin-top: 85%;
+.editBtn{
+
+    margin-right: 5%;
+    margin-top: -5%;
     background: rgba(0,0,0,0);
     border-style: none;
     cursor: pointer;
+    float: right;
 }
 
 .profileInfo{
@@ -80,14 +77,14 @@ body{
     height: 500px;
     margin-left: 35%;
     margin-top: -19%;
-    background: #596672;
+    background-color: rgba(89,102,114,0.5);
     border-radius: 1%;
 
 }
 
 .blockStyle{
-    border-top: #FF6868 1px solid;
-    color: #FF6868;
+    border-top: #e56b6f 1px solid;
+    color: #e56b6f;
     height: 150px;
     font-family: Comic Sans MS, Comic Sans, cursive;
 }
@@ -131,7 +128,7 @@ body{
 
 .name{
     font-size: 40px;
-    color: #FF6868;
+    color: #e56b6f;
     margin-left: 12%;
     margin-top: 2%;
     float: left;

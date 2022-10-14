@@ -3,13 +3,14 @@
     padding: 0;
 }
 body{
-    background-color: #2D3f51;
+    background-image: url("src/bgc4.gif");
+    background-size: 100% 165%;
 }
 
-.profile{
+.title{
     border-bottom: 2px white solid;
     font-size: 50px;
-    color: #FF6868;
+    color: #611f86;
     margin-left: 8%;
 }
 
@@ -29,7 +30,7 @@ body{
 
 .title{
     font-size: 50px;
-    color: #FF6868;
+    color: #611f86;
     margin-left: 10%;
     margin-top: 1%;
 }
@@ -57,12 +58,9 @@ body{
     background-image: url("src/exit.png");
 }
 
-
 .darkBox{
-
     margin-left: 15%;
     width: 45%;
-
 }
 
 .signupFrm {
@@ -74,18 +72,13 @@ body{
 
 .form {
     margin-top: -12%;
-    margin-left: 15%;
-    background-color: #596672;
+    margin-left: 25%;
+    background-color: rgba(89,102,114,0.7);
     width: 600px;
+    height: 430px;
     border-radius: 8px;
-    padding: 20px 40px;
+    padding: 35px 40px;
     box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
-}
-
-.title {
-    font-size: 30px;
-    margin-bottom: 50px;
-    color: #2ecc71;
 }
 
 .inputContainer {
@@ -117,7 +110,7 @@ input:-webkit-autofill {
     top: 15px;
     left: 15px;
     padding: 0 4px;
-    background-color: #596672;
+    background-color: rgba(89,102,114,0.7);
     color: #DADCE0;
     font-size: 16px;
     transition: 0.5s;
@@ -126,19 +119,6 @@ input:-webkit-autofill {
 
 ::placeholder {
     color: transparent;
-}
-
-.submitBtn {
-    display: block;
-    margin-left: auto;
-    padding: 15px 30px;
-    border: none;
-    background-color: #2ecc71;
-    color: white;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    margin-top: 30px;
 }
 
 .submitBtn:hover {
@@ -172,17 +152,15 @@ input:-webkit-autofill {
     background-image: url("src/proPic3.jpeg");
     background-size: 100% 100%;
     border-radius: 50%;
-    margin-top: -44%;
-    margin-left: 10%;
+    margin-left: 9%;
 }
 
 .imageUpload{
     width: 70px;
     height: 30px;
-    margin-left: 16%;
-    margin-top: 2%;
+    margin-left: 38%;
+    margin-top: 10%;
 }
-
 
 .submitBtn {
     display: block;
@@ -194,10 +172,21 @@ input:-webkit-autofill {
     border-radius: 6px;
     cursor: pointer;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: -42px;
 }
 
 .submitBtn:hover {
     background-color: #2ecc71;
     transform: translateY(-2px);
 }
+
+.imgBox{
+    margin-top: -46%;
+    margin-left: 10%;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(89,102,114,0.7);
+    border-radius: 15px;
+    padding-top: 3%;
+}
+
