@@ -22,7 +22,7 @@ p{
     height: 200px;
     margin-top: 2%;
     margin-left: 10%;
-    border-radius: 2%;
+    border-radius: 15px;
 }
 
 .container {
@@ -87,18 +87,19 @@ p{
 }
 
 .question{
-    color: #2ecc71;
+    color: wheat;
     margin-left: 3%;
 }
 
 .submitBtn{
-    width: 170px;
-    height: 70px;
+    width: 160px;
+    height: 60px;
     background-color: #596672;
-    margin-left: 80%;
-    border-radius: 10%;
-    font-size: 35px;
+    margin-left: 10%;
+    font-size: 25px;
     color: #FF6868;
+    text-decoration: none;
+    margin-top: 2%;
 }
 
 .sideBar{

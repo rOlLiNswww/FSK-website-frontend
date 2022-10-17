@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="addFriend.css">
+</head>
+<body>
+<div class="sideBar">
+    <div class="home sideBarButton"></div>
+    <div class="add sideBarButton"></div>
+    <div class="person sideBarButton"></div>
+    <div class="light sideBarButton"></div>
+    <div class="exit sideBarButton"></div>
+</div>
+<div class="title">&nbsp;Add New Relationship</div>
+
+<div class="signupFrm">
+    <div class="wrapper">
+        <form action="" class="form">
+            <div class="inputContainer">
+                <input type="text" name="first_name" class="input" value="" >
+                <label class="label">First Name:</label>
+            </div>
+            <div class="inputContainer">
+                <input type="text" name="last_name" class="input" value="" >
+                <label class="label">Last Name: </label>
+            </div>
+            <div class="inputContainer">
+                <input type="email" name="email" class="input" value="" >
+                <label  class="label">Email</label>
+            </div>
+            <div class="inputContainer">
+                <input type="date" name="birthday" class="input" value="" >
+                <label  class="label">DOB</label>
+            </div>
+            <div class="inputContainer">
+                <input type="date" name="date" class="input" value="" >
+                <label  class="label">Start from</label>
+            </div>
+            <div class="inputContainer">
+                <input type="tel" name="phone" class="input" value=""  pattern=[0-9]{10}>
+                <label class="label">Mobile Number:</label>
+            </div>
+            <div class="inputContainer">
+                <input type="text" name="monthly_income" class="input" value="" required>
+                <label class="label">Monthly Income:</label>
+            </div>
+            <div class="inputContainer">
+                <input type="text" name="hobbit" class="input">
+                <label class="label">Hobbit:</label>
+            </div>
+            <div class="inputContainer">
+                <select name="gender" class="input">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <label  class="label">gender</label>
+            </div>
+            <input type="submit" class="submitBtn" value="Save">
+        </form>
+    </div>
+</div>
+
+<div class="imgBox">
+    <div class="Img" style="background-image: url('src/anonymous.png')"></div>
+    <input type='file' class="imageUpload" accept=".png, .jpg, .jpeg" />
+</div>
+
+
+</body>
+</html>>

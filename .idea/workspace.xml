@@ -2,17 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/addFriend.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/addFriend.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/deleteBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/editBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/infoBtn.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignUp.css" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/edit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editPage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/editProPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/editProPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/editProPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey.css" beforeDir="false" afterPath="$PROJECT_DIR$/survey.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,17 +57,17 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.survey.html">
-    <configuration name="LoadingPage.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/LoadingPage.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SearchFriend.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.Dashboard.html">
+    <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="SignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SignUp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
+    <configuration name="addFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/addFriend.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="example.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/example.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
@@ -77,11 +75,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Dashboard.html" />
+        <item itemvalue="JavaScript Debug.example.html" />
         <item itemvalue="JavaScript Debug.survey.html" />
+        <item itemvalue="JavaScript Debug.addFriend.html" />
         <item itemvalue="JavaScript Debug.SignUp.html" />
-        <item itemvalue="JavaScript Debug.SearchFriend.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
-        <item itemvalue="JavaScript Debug.LoadingPage.html" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +105,9 @@
       <workItem from="1665116267487" duration="7998000" />
       <workItem from="1665198757986" duration="269000" />
       <workItem from="1665457889831" duration="18788000" />
-      <workItem from="1665706920872" duration="13180000" />
+      <workItem from="1665706920872" duration="16788000" />
+      <workItem from="1665803456719" duration="244000" />
+      <workItem from="1665983700751" duration="9616000" />
     </task>
     <servers />
   </component>

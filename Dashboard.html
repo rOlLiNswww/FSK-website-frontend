@@ -20,45 +20,87 @@
         <input type="button" name="" id="" class="btn">
     </form>
 </div>
-<div class="friend dropbtn" onclick=myFunction()>
 
-    <img class="profilePic" src="src/proPic3.jpeg" alt="">
-    <p class="name">Alice</p>
-    <progress class="intimacy" max="100" value="95">70%</progress>
-    <div><p class="text">matric1 <br> matric2 <br> matric3</p></div>
-    <progress class="intimacy_1" id="1" max="100" value="90"></progress>
-    <progress class="intimacy_1" id="2" max="100" value="80"></progress>
-    <progress class="intimacy_1" id="3" max="100" value="60"></progress>
-    <div id="myDropdown" class="dropdown-content">
-            <img  class="hide" src="src/hidecontent.png">
+<div class="friend">
+    <div class="infoBox">
+        <img class="profilePic" src="src/proPic4.webp" alt="">
+        <p class="name">Mark drown</p>
+        <progress class="intimacy" max="100" value="90"></progress>
     </div>
+    <div class="infoBox">
+        <div><p class="text">Familiarity<br>Intimacy<br>Similarity</p></div>
+        <progress class="intimacy_1 " max="100" value="80"></progress>
+        <progress class="intimacy_1 " max="100" value="75"></progress>
+        <progress class="intimacy_1 " max="100" value="85"></progress>
+    </div>
+    <img src="src/editBtn.png" alt="">
+    <img src="src/infoBtn.png" alt="">
+    <img src="src/deleteBtn.png" alt="">
 </div>
 <div class="friend">
-    <img class="profilePic" src="src/proPic2.jpeg" alt="">
-    <div class="name">Richard</div>
-    <progress class="intimacy" max="100" value="50">70%</progress>
-    <div><p class="text">matric1 <br> matric2 <br> matric3</p></div>
-    <progress class="intimacy_1 " max="100" value="40"></progress>
-    <progress class="intimacy_1 " max="100" value="75"></progress>
-    <progress class="intimacy_1 " max="100" value="25"></progress>
+    <div class="infoBox">
+        <img class="profilePic" src="src/proPic2.webp" alt="">
+        <p class="name">Lucy</p>
+        <progress class="intimacy" max="100" value="75"></progress>
+    </div>
+    <div class="infoBox">
+        <div><p class="text">Familiarity<br>Intimacy<br>Similarity</p></div>
+        <progress class="intimacy_1 " max="100" value="65"></progress>
+        <progress class="intimacy_1 " max="100" value="55"></progress>
+        <progress class="intimacy_1 " max="100" value="75"></progress>
+    </div>
+    <img src="src/editBtn.png" alt="">
+    <img src="src/infoBtn.png" alt="">
+    <img src="src/deleteBtn.png" alt="">
 </div>
 <div class="friend">
-    <img class="profilePic" src="src/proPic2.webp" alt="">
-    <p class="name">Lucy</p>
-    <progress class="intimacy" max="100" value="70"></progress>
-    <div><p class="text">matric1 <br> matric2 <br> matric3</p></div>
-    <progress class="intimacy_1 " max="100" value="70"></progress>
-    <progress class="intimacy_1 " max="100" value="45"></progress>
-    <progress class="intimacy_1 " max="100" value="35"></progress>
-
-</div>
-<div class="addFriend">
-    <img class="addFri" src="src/addFri.ico" alt="">
+    <div class="infoBox">
+        <img class="profilePic" src="src/proPic5.jpeg" alt="">
+        <p class="name">John richard</p>
+        <progress class="intimacy" max="100" value="30"></progress>
+    </div>
+    <div class="infoBox">
+        <div><p class="text">Familiarity<br>Intimacy<br>Similarity</p></div>
+        <progress class="intimacy_1 " max="100" value="20"></progress>
+        <progress class="intimacy_1 " max="100" value="15"></progress>
+        <progress class="intimacy_1 " max="100" value="35"></progress>
+    </div>
+    <img src="src/editBtn.png" alt="">
+    <img src="src/infoBtn.png" alt="">
+    <img src="src/deleteBtn.png" alt="">
 </div>
 <script>
-    function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-    }
-</script>
+        var cor = document.getElementsByTagName("progress");
+
+        for(var i = 0 ; i < cor.length; i++){
+            if(cor.item(i).value >= 80 ){
+                cor.item(i).style.accentColor="#57f396"
+            }
+            if(75 <= cor.item(i).value && cor.item(i).value < 80 ){
+                cor.item(i).style.accentColor="#b9ff9f"
+            }
+
+            if(60 <= cor.item(i).value && cor.item(i).value < 75 ){
+                cor.item(i).style.accentColor="#f7fb98"
+            }
+
+            if(40 <= cor.item(i).value && cor.item(i).value < 60 ){
+                cor.item(i).style.accentColor="#ffcd89"
+            }
+            if(20 <= cor.item(i).value && cor.item(i).value < 40 ){
+                cor.item(i).style.accentColor="#ff777b"
+            }
+            if(cor.item(i).value < 20 ){
+                cor.item(i).style.accentColor="#f85656"
+            }
+
+        }
+    </script>
+<div class="addFriend">
+    <div class="addFried">
+        <img class="addFri" src="src/addFri.ico" alt="">
+    </div>
+</div>
+
 </body>
 </html>
