@@ -4,6 +4,10 @@ body{
     background-size: 100% 160%;
 }
 
+a{
+    text-decoration: none;
+}
+
 .loader {
     border: 10px solid #f3f3f3; /* Light grey */
     border-top: 10px solid #2ecc71; /* Blue */

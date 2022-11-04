@@ -18,7 +18,7 @@ body{
 .sideBar{
     background-color: rgba(27, 42, 64);
     width: 8%;
-    height: 750px;
+    height: 820px;
     float: left;
     position: fixed;
 }
@@ -59,7 +59,7 @@ body{
     height: 250px;
     border-radius: 50%;
     background-size: 100% 100%;
-    background-image: url("src/proPic3.jpeg");
+
 }
 
 .editBtn{

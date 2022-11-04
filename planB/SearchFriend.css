@@ -33,19 +33,19 @@ body{
     background-size: 100% 100%;
 }
 .home{
-    background-image: url("src/home.png");
+    background-image: url("../src/home.png");
 }
 .add{
-    background-image: url("src/plus.png");
+    background-image: url("../src/plus.png");
 }
 .person{
-    background-image: url("src/person.png");
+    background-image: url("../src/person.png");
 }
 .light{
-    background-image: url("src/light.png");
+    background-image: url("../src/light.png");
 }
 .exit{
-    background-image: url("src/exit.png");
+    background-image: url("../src/exit.png");
 }
 
 .container {
@@ -73,7 +73,7 @@ body{
     height: 35px;
     width: 40px;
     position: absolute;
-    background: url("src/search.png");
+    background: url("../src/search.png");
     top: 10px;
     left: 570px;
     border: none;

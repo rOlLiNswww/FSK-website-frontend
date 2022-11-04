@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <title>Dashboard</title>
     <link rel="stylesheet" href="Dashboard.css">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
 </head>
 <body>
 <div class="title">&nbsp;&nbsp;Dashboard</div>
 <div class="sideBar">
-    <div class="home sideBarButton"></div>
-    <div class="add sideBarButton"></div>
-    <div class="person sideBarButton"></div>
+    <a href="Dashboard.html"><div class="home sideBarButton"></div></a>
+    <a href="addFriend.html"><div class="add sideBarButton"></div></a>
+    <a href="Profile.html"><div class="person sideBarButton"></div></a>
     <div class="light sideBarButton"></div>
-    <div class="exit sideBarButton"></div>
+    <a href="login.html"><div class="exit sideBarButton"></div></a>
 </div>
 <div class="container">
     <form action="" class="parent">
@@ -23,8 +25,8 @@
 
 <div class="friend">
     <div class="infoBox">
-        <img class="profilePic" src="src/proPic4.webp" alt="">
-        <p class="name">Mark drown</p>
+        <a href="spidermanProfile.html"><img class="profilePic" src="src/spiderman.jpeg" alt=""></a>
+        <p class="name">Peter Parker</p>
         <progress class="intimacy" max="100" value="90"></progress>
     </div>
     <div class="infoBox">
@@ -33,42 +35,178 @@
         <progress class="intimacy_1 " max="100" value="75"></progress>
         <progress class="intimacy_1 " max="100" value="85"></progress>
     </div>
-    <img src="src/editBtn.png" alt="">
-    <img src="src/infoBtn.png" alt="">
+    <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
+    <img onclick="showInfo()" src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
+
+    <div class="Info">
+        <p class="subTitle">Personality</p>
+        <div class="profileInfo">
+            <div class="personality blockStyle">
+                <div id="container" class="pie"></div>
+                <script>
+                    $(document).ready(function() {
+                        var chart = {
+                            plotBorderWidth: null,
+                            plotShadow: false,
+                            backgroundColor:"rgba(89,102,114,0)",
+                        };
+                        var title = {
+                            text: null
+                        };
+
+                        var tooltip = {
+                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+                        };
+
+                        var plotOptions = {
+                            pie: {
+                                allowPointSelect: true,
+                                cursor: 'pointer',
+                                dataLabels: {
+                                    enabled: false
+                                },
+                                showInLegend: true
+                            }
+
+                        };
+                        var series= [{
+                            type: 'pie',
+                            data: [
+                                ['Rational',   45.0],
+                                ['Perceptual',       26.8],
+                                {
+                                    name: 'Conservative',
+                                    y: 12.8,
+                                    sliced: true,
+                                    selected: true
+                                },
+                                ['Impulsive',    8.5],
+                                ['Extroverted',     6.2],
+                                ['Introverted',   0.7]
+                            ]
+                        }];
+
+                        var json = {};
+                        json.chart = chart;
+                        json.title = title;
+                        json.tooltip = tooltip;
+                        json.series = series;
+                        json.plotOptions = plotOptions;
+                        $('#container').highcharts(json);
+                    });
+                </script>
+            </div>
+        </div>
+
+        <div id="container1" class="flowChart"></div>
+        <script language="JavaScript">
+            $(document).ready(function() {
+                var title = {
+
+                    text:'Intimacy Flow'
+                };
+                var chart={
+
+                    backgroundColor:"rgba(89,102,114,0)"
+                }
+                var xAxis = {
+                    labels:{
+                        style:"#ffffff"
+                    },
+                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+                };
+                var yAxis = {
+                    labels:{
+                        style:"#ffffff"
+                    },
+                    title: {
+                        style:"#ffffff",
+
+                        text: 'Percentage (\xB0%)',
+                    },
+                    categories: ['0', '10', '20', '30', '40', '50',
+                        '60', '70', '80', '90', '100'],
+                    plotLines: [{
+                        value: 0,
+                        width: 1,
+
+                    }]
+                };
+
+                var tooltip = {
+                    valueSuffix: '\xB0%'
+                }
+
+                var legend = {
+                    layout: 'vertical',
+                    align: 'right',
+                    verticalAlign: 'middle',
+                    borderWidth: 0,
+
+                };
+
+                var series =  [
+                    {
+                        name: 'Intimacy %',
+                        data: [30, 49, 65, 75, 82, 95, 82,
+                            75, 83, 73, 91, 96]
+                    }
+
+                ];
+
+                var json = {};
+
+                json.title = title;
+                json.chart = chart
+                json.xAxis = xAxis;
+                json.yAxis = yAxis;
+                json.tooltip = tooltip;
+                json.legend = legend;
+                json.series = series;
+
+                $('#container1').highcharts(json);
+            });
+        </script>
+        <p class="font">Already Meet: 300 DAYS</p>
+    </div>
 </div>
 <div class="friend">
     <div class="infoBox">
-        <img class="profilePic" src="src/proPic2.webp" alt="">
-        <p class="name">Lucy</p>
-        <progress class="intimacy" max="100" value="75"></progress>
+        <a href="pepperProfile.html"><img class="profilePic" src="src/pepper.png" alt=""></a>
+        <p class="name">Pepper</p>
+        <progress class="intimacy" max="100" value="95"></progress>
     </div>
     <div class="infoBox">
         <div><p class="text">Familiarity<br>Intimacy<br>Similarity</p></div>
-        <progress class="intimacy_1 " max="100" value="65"></progress>
-        <progress class="intimacy_1 " max="100" value="55"></progress>
-        <progress class="intimacy_1 " max="100" value="75"></progress>
+        <progress class="intimacy_1 " max="100" value="95"></progress>
+        <progress class="intimacy_1 " max="100" value="95"></progress>
+        <progress class="intimacy_1 " max="100" value="95"></progress>
     </div>
-    <img src="src/editBtn.png" alt="">
+    <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
     <img src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
 </div>
 <div class="friend">
     <div class="infoBox">
-        <img class="profilePic" src="src/proPic5.jpeg" alt="">
-        <p class="name">John richard</p>
+        <a href="thanosProfile.html"><img class="profilePic" src="src/thanos.png" alt=""></a>
+        <p class="name">Thanos</p>
         <progress class="intimacy" max="100" value="30"></progress>
     </div>
     <div class="infoBox">
         <div><p class="text">Familiarity<br>Intimacy<br>Similarity</p></div>
         <progress class="intimacy_1 " max="100" value="20"></progress>
-        <progress class="intimacy_1 " max="100" value="15"></progress>
-        <progress class="intimacy_1 " max="100" value="35"></progress>
+        <progress class="intimacy_1 " max="100" value="25"></progress>
+        <progress class="intimacy_1 " max="100" value="45"></progress>
     </div>
-    <img src="src/editBtn.png" alt="">
+    <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
     <img src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
 </div>
+
+
+
 <script>
         var cor = document.getElementsByTagName("progress");
 
@@ -95,12 +233,36 @@
             }
 
         }
+
+
+            var flag = 0
+            var fri = document.getElementsByClassName("friend");
+            var pic = document.getElementsByClassName("Info");
+            function showInfo(){
+            if(flag==0){
+                fri.item(0).style.height="460px"
+                pic.item(0).style.display="block"
+                flag=1
+            }
+            else{
+                fri.item(0).style.height="135px"
+                pic.item(0).style.display="none"
+                flag=0
+            }
+            }
+
+
     </script>
 <div class="addFriend">
     <div class="addFried">
-        <img class="addFri" src="src/addFri.ico" alt="">
+        <a href="addFriend.html"><img class="addFri" src="src/addFri.ico" alt=""></a>
     </div>
 </div>
+
+
+
+
+
 
 </body>
 </html>

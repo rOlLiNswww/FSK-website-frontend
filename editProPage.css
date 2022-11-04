@@ -17,9 +17,10 @@ body{
 .sideBar{
     background-color: #1b2a40;
     width: 8%;
-    height: 750px;
+    height: 820px;
     float: left;
     position: fixed;
+    margin-top: -1%;
 }
 
 .sideBarButton:hover {
@@ -31,7 +32,7 @@ body{
 .title{
     font-size: 50px;
     color: #611f86;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 1%;
 }
 
@@ -73,7 +74,7 @@ body{
 .form {
     margin-top: -12%;
     margin-left: 25%;
-    background-color: rgba(89,102,114,0.7);
+    background-color: rgba(89,102,114);
     width: 600px;
     height: 430px;
     border-radius: 8px;
@@ -110,7 +111,7 @@ input:-webkit-autofill {
     top: 15px;
     left: 15px;
     padding: 0 4px;
-    background-color: rgba(89,102,114,0.7);
+    background-color: rgba(89,102,114);
     color: #DADCE0;
     font-size: 16px;
     transition: 0.5s;

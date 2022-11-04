@@ -4,7 +4,7 @@
 	padding: 0;
 }
 body{
-	background-image: url("src/chatBgc.jpeg");
+	background-image: url("../src/chatBgc.jpeg");
 	background-size: 100% 130%;
 }
 
@@ -30,19 +30,19 @@ body{
 }
 
 .home{
-	background-image: url("src/home.png");
+	background-image: url("../src/home.png");
 }
 .add{
-	background-image: url("src/plus.png");
+	background-image: url("../src/plus.png");
 }
 .person{
-	background-image: url("src/person.png");
+	background-image: url("../src/person.png");
 }
 .light{
-	background-image: url("src/light.png");
+	background-image: url("../src/light.png");
 }
 .exit{
-	background-image: url("src/exit.png");
+	background-image: url("../src/exit.png");
 }
 
 
@@ -104,7 +104,7 @@ main{
 	height: 40px;
 	width: 40px;
 	position: absolute;
-	background: url("src/search2.webp");
+	background: url("../src/search2.webp");
 	left: 180px;
 	border: none;
 	outline: none;

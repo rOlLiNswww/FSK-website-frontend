@@ -17,7 +17,7 @@ body{
 .sideBar{
     background-color: #1b2a40;
     width: 8%;
-    height: 690px;
+    height: 820px;
     float: left;
     margin-top: -5.3%;
     position: fixed;
@@ -61,6 +61,52 @@ body{
     margin-left: 12%;
     margin-top: 3%;
     border-radius: 10px;
+
+}
+
+.Info{
+    border-top: 1px solid white;
+    display: none;
+    width: 100%;
+    margin-top: 2%;
+}
+
+
+.blockStyle{
+    display: inline;
+    color: #e56b6f;
+    margin-top: -10%;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.pie{
+    margin-left: 8%;
+    width: 200px;
+    height: 300px;
+
+}
+
+.subTitle{
+    margin-left: 13%;
+    color: #e56b6f;
+    font-size: 15px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin-top: .7%;
+}
+
+.font{
+    margin-top: -15%;
+    margin-left: 70%;
+    color: #e56b6f;
+    font-size: 25px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.flowChart{
+    width: 450px;
+    height: 316px;
+    margin-top: -27%;
+    margin-left: 30%;
 }
 
 .infoBox{
@@ -96,6 +142,7 @@ body{
     margin-left: 3%;
     margin-top: 1%;
     float: left;
+
 }
 
 .name{

@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545867d6-39df-49f5-bfe9-a7759efeb2b7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/addFriend.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/addFriend.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/deleteBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/editBtn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/infoBtn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pepperProfile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spidermanProfile.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pepper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/spiderman.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/thanos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tony.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thanosProfile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/planB/ChatPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChatPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/planB/ChatPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/Dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadingPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoadingPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoadingPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/LoadingPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchFriend.css" beforeDir="false" afterPath="$PROJECT_DIR$/planB/SearchFriend.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SearchFriend.html" beforeDir="false" afterPath="$PROJECT_DIR$/planB/SearchFriend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SignUp.html" beforeDir="false" afterPath="$PROJECT_DIR$/SignUp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/addFriend.html" beforeDir="false" afterPath="$PROJECT_DIR$/addFriend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editProPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/editProPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/editProPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/editProPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/survey.css" beforeDir="false" afterPath="$PROJECT_DIR$/survey.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/survey.html" beforeDir="false" afterPath="$PROJECT_DIR$/survey.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,34 +70,38 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/planB" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Dashboard.html">
+  <component name="RunManager" selected="JavaScript Debug.spidermanProfile.html">
     <configuration name="Dashboard.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/Dashboard.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="SignUp.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/SignUp.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="addFriend.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/addFriend.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="example.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/example.html" useBuiltInWebServerPort="true">
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="survey.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/survey.html" useBuiltInWebServerPort="true">
+    <configuration name="spidermanProfile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/spidermanProfile.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="thanosProfile.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/FSK/thanosProfile.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.spidermanProfile.html" />
         <item itemvalue="JavaScript Debug.Dashboard.html" />
-        <item itemvalue="JavaScript Debug.example.html" />
-        <item itemvalue="JavaScript Debug.survey.html" />
         <item itemvalue="JavaScript Debug.addFriend.html" />
-        <item itemvalue="JavaScript Debug.SignUp.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.thanosProfile.html" />
       </list>
     </recent_temporary>
   </component>
@@ -107,7 +129,13 @@
       <workItem from="1665457889831" duration="18788000" />
       <workItem from="1665706920872" duration="16788000" />
       <workItem from="1665803456719" duration="244000" />
-      <workItem from="1665983700751" duration="9616000" />
+      <workItem from="1665983700751" duration="12271000" />
+      <workItem from="1666157317027" duration="1000" />
+      <workItem from="1666165992606" duration="5901000" />
+      <workItem from="1666181385686" duration="14549000" />
+      <workItem from="1666275838629" duration="4246000" />
+      <workItem from="1667457782496" duration="1153000" />
+      <workItem from="1667551135702" duration="10524000" />
     </task>
     <servers />
   </component>
