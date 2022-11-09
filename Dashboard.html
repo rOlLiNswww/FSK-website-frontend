@@ -36,7 +36,8 @@
         <progress class="intimacy_1 " max="100" value="85"></progress>
     </div>
     <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
-    <img onclick="showInfo()" src="src/infoBtn.png" alt="">
+    <img onclick="showInfo(0); showPie('#container',65,2,45,23,7,3);
+        showFlow('#container1',60,65,75,78,70,50,70,75,80,85,95,95)" src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
 
     <div class="Info">
@@ -44,131 +45,11 @@
         <div class="profileInfo">
             <div class="personality blockStyle">
                 <div id="container" class="pie"></div>
-                <script>
-                    $(document).ready(function() {
-                        var chart = {
-                            plotBorderWidth: null,
-                            plotShadow: false,
-                            backgroundColor:"rgba(89,102,114,0)",
-                        };
-                        var title = {
-                            text: null
-                        };
-
-                        var tooltip = {
-                            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
-                        };
-
-                        var plotOptions = {
-                            pie: {
-                                allowPointSelect: true,
-                                cursor: 'pointer',
-                                dataLabels: {
-                                    enabled: false
-                                },
-                                showInLegend: true
-                            }
-
-                        };
-                        var series= [{
-                            type: 'pie',
-                            data: [
-                                ['Rational',   45.0],
-                                ['Perceptual',       26.8],
-                                {
-                                    name: 'Conservative',
-                                    y: 12.8,
-                                    sliced: true,
-                                    selected: true
-                                },
-                                ['Impulsive',    8.5],
-                                ['Extroverted',     6.2],
-                                ['Introverted',   0.7]
-                            ]
-                        }];
-
-                        var json = {};
-                        json.chart = chart;
-                        json.title = title;
-                        json.tooltip = tooltip;
-                        json.series = series;
-                        json.plotOptions = plotOptions;
-                        $('#container').highcharts(json);
-                    });
-                </script>
             </div>
         </div>
 
         <div id="container1" class="flowChart"></div>
-        <script language="JavaScript">
-            $(document).ready(function() {
-                var title = {
 
-                    text:'Intimacy Flow'
-                };
-                var chart={
-
-                    backgroundColor:"rgba(89,102,114,0)"
-                }
-                var xAxis = {
-                    labels:{
-                        style:"#ffffff"
-                    },
-                    categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                        'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-                };
-                var yAxis = {
-                    labels:{
-                        style:"#ffffff"
-                    },
-                    title: {
-                        style:"#ffffff",
-
-                        text: 'Percentage (\xB0%)',
-                    },
-                    categories: ['0', '10', '20', '30', '40', '50',
-                        '60', '70', '80', '90', '100'],
-                    plotLines: [{
-                        value: 0,
-                        width: 1,
-
-                    }]
-                };
-
-                var tooltip = {
-                    valueSuffix: '\xB0%'
-                }
-
-                var legend = {
-                    layout: 'vertical',
-                    align: 'right',
-                    verticalAlign: 'middle',
-                    borderWidth: 0,
-
-                };
-
-                var series =  [
-                    {
-                        name: 'Intimacy %',
-                        data: [30, 49, 65, 75, 82, 95, 82,
-                            75, 83, 73, 91, 96]
-                    }
-
-                ];
-
-                var json = {};
-
-                json.title = title;
-                json.chart = chart
-                json.xAxis = xAxis;
-                json.yAxis = yAxis;
-                json.tooltip = tooltip;
-                json.legend = legend;
-                json.series = series;
-
-                $('#container1').highcharts(json);
-            });
-        </script>
         <p class="font">Already Meet: 300 DAYS</p>
     </div>
 </div>
@@ -185,8 +66,22 @@
         <progress class="intimacy_1 " max="100" value="95"></progress>
     </div>
     <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
-    <img src="src/infoBtn.png" alt="">
+    <img onclick="showInfo(1) ;showPie('#container2',45,22,10,5,15);
+        showFlow('#container3',55,64,70,75,80,88,92,95,97,98,98,98)" src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
+    <div class="Info">
+        <p class="subTitle">Personality</p>
+        <div class="profileInfo">
+            <div class="personality blockStyle">
+                <div id="container2" class="pie"></div>
+
+            </div>
+        </div>
+
+        <div id="container3" class="flowChart"></div>
+
+        <p class="font">Already Meet: 623 DAYS</p>
+    </div>
 </div>
 <div class="friend">
     <div class="infoBox">
@@ -201,8 +96,19 @@
         <progress class="intimacy_1 " max="100" value="45"></progress>
     </div>
     <a href="editProPage.html"><img src="src/editBtn.png" alt=""></a>
-    <img src="src/infoBtn.png" alt="">
+    <img onclick="showInfo(2);showPie('#container4',15,25,42,33,10);showFlow('#container5',40,38,36,34,27,24,22,20,18,18,16,15)" src="src/infoBtn.png" alt="">
     <img src="src/deleteBtn.png" alt="">
+    <div class="Info">
+        <p class="subTitle">Personality</p>
+        <div class="profileInfo">
+            <div class="personality blockStyle">
+                <div id="container4" class="pie"></div>
+            </div>
+        </div>
+
+        <div id="container5" class="flowChart"></div>
+        <p class="font">Already Meet: 30 DAYS</p>
+    </div>
 </div>
 
 
@@ -233,23 +139,138 @@
             }
 
         }
-
-
             var flag = 0
             var fri = document.getElementsByClassName("friend");
             var pic = document.getElementsByClassName("Info");
-            function showInfo(){
+            function showInfo(id){
             if(flag==0){
-                fri.item(0).style.height="460px"
-                pic.item(0).style.display="block"
+                fri.item(id).style.height="460px"
+                pic.item(id).style.display="block"
                 flag=1
+
             }
             else{
-                fri.item(0).style.height="135px"
-                pic.item(0).style.display="none"
+                fri.item(id).style.height="135px"
+                pic.item(id).style.display="none"
                 flag=0
             }
             }
+
+           function showPie(id,Ra,Pe,Im,Ex,In) {
+            var chart = {
+            plotBorderWidth: null,
+            plotShadow: false,
+            backgroundColor:"rgba(89,102,114,0)",
+        };
+            var title = {
+            text: null
+        };
+            var tooltip = {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        };
+
+            var plotOptions = {
+            pie: {
+            allowPointSelect: true,
+            cursor: 'pointer',
+            dataLabels: {
+            enabled: false
+        },
+            showInLegend: true
+        }
+
+        };
+            var series= [{
+            type: 'pie',
+            data: [
+            ['Rational',   Ra],
+            ['Perceptual', Pe],
+        {
+            name: 'Conservative',
+            y: 12.8,
+            sliced: true,
+            selected: true
+        },
+            ['Impulsive',    Im],
+            ['Extroverted',     Ex],
+            ['Introverted',   In]
+            ]
+        }];
+
+            var json = {};
+            json.chart = chart;
+            json.title = title;
+            json.tooltip = tooltip;
+            json.series = series;
+            json.plotOptions = plotOptions;
+
+            $(id).highcharts(json);
+        };
+
+            function showFlow(id,Ja,Fe,Ma,Ap,May,Ju,Jul,Au,Se,Oc,No,De) {
+            var title = {
+
+            text:'Intimacy Flow'
+        };
+            var chart={
+            backgroundColor:"rgba(89,102,114,0)"
+        }
+            var xAxis = {
+            labels:{
+            style:"#ffffff"
+        },
+            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
+            'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+        };
+            var yAxis = {
+            labels:{
+            style:"#ffffff"
+        },
+            title: {
+            style:"#ffffff",
+
+            text: 'Percentage (\xB0%)',
+        },
+            categories: ['0', '10', '20', '30', '40', '50',
+            '60', '70', '80', '90', '100'],
+            plotLines: [{
+            value: 0,
+            width: 1,
+
+        }]
+        };
+
+            var tooltip = {
+            valueSuffix: '\xB0%'
+        }
+
+            var legend = {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'middle',
+            borderWidth: 0,
+        };
+
+            var series =  [
+        {
+            name: 'Intimacy %',
+            data: [Ja, Fe, Ma, Ap, May, Ju, Jul,
+            Au, Se, Oc, No, De]
+        }
+
+            ];
+
+            var json = {};
+            json.title = title;
+            json.chart = chart
+            json.xAxis = xAxis;
+            json.yAxis = yAxis;
+            json.tooltip = tooltip;
+            json.legend = legend;
+            json.series = series;
+            $(id).highcharts(json);
+        }
+
 
 
     </script>
